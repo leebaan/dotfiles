@@ -1,0 +1,7 @@
+jenkinsfile=$1
+
+if [[ -z $1 ]]; then
+   jenkinsfile=./Jenkinsfile 
+fi
+
+curl -X POST -F "jenkinsfile=<$jenkinsfile" localhost/pipeline-model-converter/validate

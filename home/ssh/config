@@ -1,0 +1,10 @@
+Include config_work
+
+Host github.com
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/id_rsa
+
+Host *.10sheet.ca *.bench.co
+    User liban.farah
+    ForwardAgent yes
+    IdentityFile ~/.ssh/id_rsa-foxpass-bench
