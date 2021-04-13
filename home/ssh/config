@@ -2,7 +2,7 @@ Include config_work
 
 Host github.com
     IdentitiesOnly yes
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_ed25519
 
 Host *.10sheet.ca *.bench.co
     User liban.farah
